@@ -42,7 +42,9 @@ console.log(wordIsPaindrome);
 
 ## 3. Check a List
 
-Write a function `checkForStudent` that takes 2 parameters, a student's name and an array of students, and checks if the student's name is in the array. If the student's name is included in the array the function should return true. If the name is not included in the array the function should return false. There is more than one way to do this challenge. For extra practice see if you can find at least two ways to solve it.
+Write a function `checkForStudent` that takes 2 parameters, a student's name and an array of students, and checks if the student's name is in the array. If the student's name is included in the array the function should return true. If the name is not included in the array the function should return false. There is more than one way to do this challenge.
+
+**Extra Bonus**: For extra practice see if you can find at least two ways to solve it.
 
 ```js
 const studentIncluded =  checkForStudent('Sally', ['Sally', 'Kyle']);
