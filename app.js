@@ -29,3 +29,21 @@ function checkPalindrome(wordIsPalindrome) {
 
 checkPalindrome("cat");
 checkPalindrome("tacocat");
+
+/////////////////////////////////
+// QUESTION 3 - CHECK A LIST
+
+const studentArray = ["Nicole", "Brooke", "Megan", "Stephany", "Erin", "Jack"];
+
+function checkForStudent(student, arrayOfStudents) {
+    for (i = 0; i <= arrayOfStudents.length; i++) {
+        if (arrayOfStudents[i] == student) {
+            return true;
+        };
+        
+    };
+    return false;
+};
+
+const studentIncluded = checkForStudent("John", studentArray);
+console.log(studentIncluded);
