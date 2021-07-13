@@ -15,38 +15,38 @@
 
 // /////////////////////////////////
 // // QUESTION 2 - PALINDROME
-// function checkPalindrome(wordIsPalindrome) {
-//     wordIsPalindrome = wordIsPalindrome.toUpperCase();
-//     const wordSplit = wordIsPalindrome.split("");
-//     const reverseArray = wordSplit.reverse();
-//     const reverseWord = reverseArray.join("");
-//     if (reverseWord === wordIsPalindrome) {
-//         console.log(true);
-//     } else {
-//         console.log(false);
-//     }
-// }
+function checkPalindrome(wordIsPalindrome) {
+    wordIsPalindrome = wordIsPalindrome.toUpperCase();
+    const wordSplit = wordIsPalindrome.split("");
+    const reverseArray = wordSplit.reverse();
+    const reverseWord = reverseArray.join("");
+    if (reverseWord === wordIsPalindrome) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+}
 
-// checkPalindrome("cat");
-// checkPalindrome("tacocat");
+checkPalindrome("cat");
+checkPalindrome("tacocat");
 
 // /////////////////////////////////
 // // QUESTION 3 - CHECK A LIST
 
-// const studentArray = ["Nicole", "Brooke", "Megan", "Stephany", "Erin", "Jack"];
+const studentArray = ["Nicole", "Brooke", "Megan", "Stephany", "Erin", "Jack"];
 
-// function checkForStudent(student, arrayOfStudents) {
-//     for (i = 0; i <= arrayOfStudents.length; i++) {
-//         if (arrayOfStudents[i] == student) {
-//             return true;
-//         };
+function checkForStudent(student, arrayOfStudents) {
+    for (i = 0; i <= arrayOfStudents.length; i++) {
+        if (arrayOfStudents[i] == student) {
+            return true;
+        };
         
-//     };
-//     return false;
-// };
+    };
+    return false;
+};
 
-// const studentIncluded = checkForStudent("John", studentArray);
-// console.log(studentIncluded);
+const studentIncluded = checkForStudent("John", studentArray);
+console.log(studentIncluded);
 
 /////////////////////////////////
 // QUESTION 4 - SUM ARRAY
