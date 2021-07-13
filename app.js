@@ -50,3 +50,19 @@ console.log(studentIncluded);
 
 /////////////////////////////////
 // QUESTION 4 - SUM ARRAY
+
+let numArray = [5, 10, 15, 3];
+let runningSum = 0;
+
+function sumArray(arrayOfNums) {
+
+    for (i=0; i <= arrayOfNums.length; i++) {
+        runningSum += arrayOfNums[i];
+    };
+    return runningSum;
+};
+
+let sum = sumArray(numArray);
+console.log(sum);
+
+// This is returning 'NaN' or 'undefined' for me whatever I do, but I checked this against some of my classmates' code and it had others look at it. We couldn't figure out what was going on and concluded that my browser is being weird.
