@@ -47,3 +47,6 @@ function checkForStudent(student, arrayOfStudents) {
 
 const studentIncluded = checkForStudent("John", studentArray);
 console.log(studentIncluded);
+
+/////////////////////////////////
+// QUESTION 4 - SUM ARRAY
